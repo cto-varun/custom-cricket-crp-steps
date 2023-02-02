@@ -1,0 +1,15 @@
+.step-1__wrapper--loading, .crp-step__spinner {
+  margin: 0 auto;
+  width: 100%;
+  padding: 100px;
+  font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+  color: #60A630;
+}
+
+.step-1__wrapper--loading.ant-spin .ant-spin-text {
+  color: #60A630;
+}
+
+.step-1__wrapper--loading .ant-spin-dot-item, .crp-step__spinner .ant-spin-dot-item {
+  background-color: #60A630;
+}

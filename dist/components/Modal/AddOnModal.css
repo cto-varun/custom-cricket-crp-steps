@@ -1,0 +1,132 @@
+.addOnModalContainer {
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    text-align: center;
+}
+
+.addOnModalContainer>.nameContainer {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.addOnModalContainer>.rateContainer {
+    color: #4dac23;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.addOnModalContainer>.selectorContainer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.addOnModalContainer>.selectorContainer>.selectorLabel {
+    font-weight: 500;
+    align-self: center;
+    padding: 0 10px;
+}
+
+.addOnModalContainer>.selectorContainer>.selectorValue {
+    border: 1.5px solid black;
+    color: black;
+    background: white;
+    align-self: center;
+    padding: 5px;
+    width: 70px;
+    font-weight: 500;
+}
+
+.addOnModalContainer>.selectorContainer>.selected {
+    color: white;
+    background: black;
+}
+
+.addOnModalContainer>.plusMinusContainer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.addOnModalContainer>.plusMinusContainer>.plusMinusRateContainer {
+    color: #4dac23;
+    font-size: 2.5em;
+    font-weight: 600;
+    border: 1px solid #a7a7a7;
+    border-right: none;
+    padding: 10px;
+    width: 160px;
+    height: 78px;
+}
+
+.addOnModalContainer>.plusMinusContainer>.plusMinusBtnsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.addOnModalContainer>.plusMinusContainer>.plusMinusBtnsContainer>.plusMinusBtn {
+    height: 39px;
+    width: 39px;
+    font-size: 1.6em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.addOnModalContainer>.plusMinusContainer>.plusMinusBtnsContainer>.plusBtn {
+    background: #1370bd;
+    color: white;
+}
+
+.addOnModalContainer>.plusMinusContainer>.plusMinusBtnsContainer>.minusBtn {
+    background: white;
+    color: #1370bd;
+    border: 1px solid #a7a7a7;
+}
+
+.addOnModalContainer>.onceLabelContainer {
+    width: 200px;
+    align-self: center;
+    text-align: start;
+}
+
+.addOnModalContainer>.amountContainer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.addOnModalContainer>.amountContainer>.labelText {
+    width: 140px;
+    text-align: start;
+}
+
+.addOnModalContainer>.amountContainer>.amountText {
+    width: 60px;
+}
+
+.addOnModalContainer>.amountContainer>.totalAmount {
+    background: #4dac23;
+    color: white;
+}
+
+.addOnModalContainer>.amountContainer>.totalText {
+    font-weight: 700;
+}
+
+.addOnModalContainer>.addBtn {
+    background: #1370bd;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    font-weight: 600;
+    padding: 5px;
+    align-self: center;
+    border-radius: 2px;
+}
+
+.addOnModalContainer>.dashedBorder {
+    border: 0.5px dashed #a7a7a7;
+    margin: 10px 10%;
+}

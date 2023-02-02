@@ -1,0 +1,400 @@
+.plan-list-wrapper {
+    width: 100%;
+    height: 84vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #fff;
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.plan-list-header {
+    width: 100%;
+    padding: 15px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #d5dce510;
+    border-bottom: 1px solid #d5dce5;
+    position: relative;
+}
+
+.plan-list-header-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #010101;
+}
+
+.plan-list-header-item.phone-line {
+    width: 250px;
+    -webkit-box-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+}
+
+.plan-list-header-item.plan-item {
+    margin: 0px 8px;
+    padding: 0px 15px;
+}
+
+.plan-list-header .detail-toggle {
+    position: absolute;
+    right: 16px;
+}
+
+.plan-list-actions {
+    border-top: 1px solid #d5dce5;
+    padding: 12px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.plan-list-actions button {
+    width: 160px;
+    height: 40px;
+}
+
+.plan-list-actions button.ant-btn-primary {
+    background: #60a630;
+    color: #fff;
+    border: none;
+}
+
+.plan-list-actions button.ant-btn:hover {
+    color: #60a630;
+    border-color: #60a630;
+}
+
+.plan-list-actions button.ant-btn-primary:hover,
+.plan-list-actions button.ant-btn-primary:focus,
+.plan-list-actions button.ant-btn-primary:active {
+    background: #f1ffe3;
+    color: #60a630;
+    border: none;
+}
+
+.plan-list-actions .ant-btn.ant-btn-primary[disabled]{
+    background-color: #f5f5f5;
+    color: rgba(0, 0, 0, 0.25);
+    border: 1px solid #d9d9d9;
+  }
+  
+  .plan-list-actions .ant-btn.ant-btn-primary[disabled]:hover {
+    border-color: #C4D600;
+  }
+
+.text-grey-1 {
+    color: #d5dce5;
+}
+
+.text-green-1 {
+    color: #60a630;
+}
+
+.bg-grey-1 {
+    background: #d5dce5;
+}
+
+.bg-grey-2 {
+    background: #f4f6f9;
+}
+
+.bg-white {
+    background: white;
+}
+
+.bg-green-1 {
+    background: #60a630;
+}
+
+.plan-list-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 12px;
+    overflow: auto;
+}
+
+.plan-list-container {
+    display: initial;
+}
+
+.plan-list-item-wrapper {
+    margin: 4px 8px;
+    max-width: 300px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.plan-list-container-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.plan-list-item {
+    padding: 8px 16px;
+    background: white;
+    border-radius: 2px;
+}
+
+.plan-list-item.striped {
+    background: #f4f6f9;
+}
+
+.plan-list-item-charge {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #eaeef2;
+    padding: 8px 0px;
+}
+
+.plan-list-item-charge .charge-title {
+    color: #010101;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.plan-list-item-charge .charge-value {
+    color: #404041;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.plan-detail-list-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.plan-detail-list-item-wrapper {
+    margin: 4px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid rgba(213, 220, 229, 0.5);
+    background: white;
+}
+
+.plan-detail-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.plan-detail-list-item .item-header {
+    display: grid;
+    grid-template-columns: 50px auto;
+    width: 250px;
+    height: 100%;
+    position: relative;
+}
+
+.mobile-icon-wrapper {
+    text-align: right;
+    padding: 0px;
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+.item-header .subtitle {
+    text-align: right;
+    color: #d5dce5;
+    padding: 0px;
+    padding-right: 10px;
+}
+
+.item-header .telephone-number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.item-header .meta-info {
+    font-size: 12px;
+}
+
+.item-header .phone-model {
+    font-weight: 600;
+}
+
+.item-header .line-total {
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+}
+
+.plan-detail-list-item .item-content {
+    grid-template-rows: 5;
+    grid-template-columns: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.item-content .plan-list-item-wrapper {
+    max-width: unset;
+}
+
+.item-content .plan-list-item {
+    padding: 0px 20px;
+    margin: -8px 0px;
+}
+
+.item-content .plan-list-item-charge {
+    grid-column: 1;
+    grid-row: 1;
+    color: #404041;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 16px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.item-content .plan-list-item-charge .charge-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 80px 60px;
+    padding: 4px 0px;
+}
+
+.item-content .plan-list-item-charge .charge-row .text-right {
+    text-align: right;
+}
+
+.item-content .plan-list-item .plan-charge-item {
+    margin: 0px -6px;
+    width: calc(100% + 12px);
+    background: #f4f6f9;
+    padding: 3px 6px;
+}
+
+.item-content .plan-list-item.striped .plan-charge-item {
+    background: white;
+}
+
+.item-content .plan-list-item .addon-type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.item-content .plan-list-item .addon-type-badge {
+    background: #d5dce5;
+    padding: 2px 8px;
+    margin-left: 8px;
+}
+
+.plan-list-detail__null-view {
+    margin: 0 auto;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 16px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    color: #404041;
+}
+
+.plan-list-detail__null-view--error {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+}

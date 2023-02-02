@@ -1,0 +1,39 @@
+.step-2-wrapper--parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+}
+
+.step-2-wrapper--summary-tables-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.step-2-wrapper--summary-tables-wrapper > div {
+  width: 380px;
+}
+
+.step-2-wrapper--apply-payment {
+  margin: 14px 0;
+  font-family: 'Simply Cricket Cond Book';
+}
+
+.step-2-wrapper--apply-payment > form > label > span {
+  margin-left: 7px;
+}

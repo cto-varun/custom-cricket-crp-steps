@@ -1,0 +1,167 @@
+.step-3-wrapper--parent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 2px;
+    padding: 12px 16px;
+    height: 100%;
+}
+
+.step-3-wrapper--payment-form-summary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.step-3-wrapper__payment-form {
+    width: 70%;
+}
+
+.step-3-wrapper__payment-form
+    .ant-tabs-nav-list
+    .ant-tabs-tab.ant-tabs-tab-active,
+.step-3-wrapper__payment-form .ant-tabs-nav-list .ant-tabs-tab:hover {
+    color: #60a630;
+    border: 2px solid #f0f0f0;
+    border-bottom: none;
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.step-3-wrapper__payment-form .ant-tabs-nav-list .ant-tabs-tab {
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.step-3-wrapper__payment-form .payment-form-header {
+    /* height: 43px; */
+    color: #6e6f72;
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    margin: 16px 0 0 0;
+}
+
+.step-3-wrapper__payment-form
+    .crp-payment-credit-debit-credit-debit
+    .crp-payment-credit-debit-coming-soon-container {
+    padding-top: 20px;
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+.step-3-wrapper__payment-form
+    .crp-payment-credit-debit-credit-debit
+    div#payment_coming_soon {
+    font-size: 18px;
+}
+.step-3-wrapper__payment-form .touchless-payment-layout {
+    margin: 0;
+}
+.step-3-wrapper__payment-form
+    .ant-tabs-content
+    .ant-tabs-tabpane-active
+    .component-container {
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+}
+
+.step-3-wrapper__summary-table {
+    width: 30%;
+    border: 1px solid #f0f0f0;
+    height: 300px;
+    -webkit-box-shadow: 1px 1px 1px 1px #eee;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border-radius: 2px;
+}
+.step-3__summary-table-title {
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin: 16px auto 0 auto;
+    display: block;
+}
+
+.step-3-wrapper__payment-form .touchless-payment-layout .template-component {
+    overflow-y: unset;
+}
+
+.step-3-wrapper__buttons {
+    margin-top: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.step-3-wrapper__buttons button {
+    height: 40px;
+}
+
+.step-3-wrapper__buttons button.ant-btn-primary {
+    background: #60a630;
+    color: #fff;
+    border: none;
+}
+
+.step-3-wrapper__buttons button.ant-btn:hover {
+    color: #60a630;
+    border-color: #60a630;
+}
+
+.step-3-wrapper__buttons button.ant-btn-primary:hover,
+.step-3-wrapper__buttons button.ant-btn-primary:focus,
+.step-3-wrapper__buttons button.ant-btn-primary:active {
+    background: #f1ffe3;
+    color: #60a630;
+    border: none;
+}
+
+.step-3-wrapper__buttons .ant-btn.ant-btn-primary[disabled] {
+    background-color: #f5f5f5;
+    color: rgba(0, 0, 0, 0.25);
+    border: 1px solid #d9d9d9;
+}
+
+.step-3-wrapper__buttons .ant-btn.ant-btn-primary[disabled]:hover {
+    border-color: #c4d600;
+}
+
+.step-3-wrapper__payment-form input.ant-input:hover,
+.step-3-wrapper__payment-form input.ant-input:focus {
+    border-color: #c4d600;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+    box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+}
+
+.step-3-wrapper__payment-form .ant-select:hover,
+.step-3-wrapper__payment-form .ant-select:focus {
+    border-color: #c4d600;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+    box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+    --antd-wave-shadow-color: #c4d600;
+}

@@ -1,0 +1,518 @@
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+}
+
+[data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #434343;
+}
+
+.defaultPlanButton,
+.defaultPlanButton.ant-btn:hover,
+.defaultPlanButton.ant-btn:focus,
+.defaultPlanButton.ant-btn:active {
+    background-color: #f4f6f9;
+    border-color: #f4f6f9;
+    color: #404041;
+}
+
+.currentPlanButton,
+.currentPlanButton.ant-btn:hover,
+.currentPlanButton.ant-btn:focus,
+.currentPlanButton.ant-btn:active {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #ffe5df;
+    border-color: #ffe5df;
+    color: #d35d43;
+}
+
+.newPlanButton,
+.newPlanButton.ant-btn:hover,
+.newPlanButton.ant-btn:focus,
+.newPlanButton.ant-btn:active {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #f1ffe3;
+    border-color: #f1ffe3;
+    color: #60a630;
+}
+
+.changedAddOn,
+.changedAddOn.ant-btn:hover,
+.changedAddOn.ant-btn:focus,
+.changedAddOn.ant-btn:active {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #c4d600;
+    border-color: #c4d600;
+    color: #ffffff;
+}
+
+.originalAddOn,
+.originalAddOn.ant-btn:hover,
+.originalAddOn.ant-btn:focus,
+.originalAddOn.ant-btn:active {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #f4f6f9;
+    border-color: #f4f6f9;
+    color: #404041;
+}
+
+.originalAddOn .addOnQuantityContainer {
+    background: #d5dce5;
+    border-radius: 2px;
+    padding: 0 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.changedAddOn .addOnQuantityContainer {
+    background: #fff;
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0 10px;
+    color: #c4d600;
+}
+
+.changeAddOnPopover {
+    text-align: center;
+}
+
+.changeAddOnPopoverTitle {
+    text-align: center;
+}
+
+.changeAddOnQuantityContainer {
+    border: 1px solid #d5dce5;
+    border-radius: 2px;
+    padding: 0 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.changeAddOnQuantity,
+.changeAddOnQuantity.ant-btn:hover,
+.changeAddOnQuantity.ant-btn:focus,
+.changeAddOnQuantity.ant-btn:active {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #f4f6f9;
+    border-color: #f4f6f9;
+    color: #404041;
+}
+
+.changeNewAddOn,
+.changeNewAddOn.ant-btn:hover,
+.changeNewAddOn.ant-btn:focus,
+.changeNewAddOn.ant-btn:active {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #f1ffe3;
+    border-color: #f1ffe3;
+    color: #60a630;
+}
+
+.changeRemovedAddOn,
+.changeRemovedAddOn.ant-btn:hover,
+.changeRemovedAddOn.ant-btn:focus,
+.changeRemovedAddOn.ant-btn:active {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #ffe5df;
+    border-color: #ffe5df;
+    color: #d35d43;
+}
+
+.table-status-error {
+    background-color: #f2263542;
+}
+.table-status-warning {
+    background-color: #f8ac3042;
+}
+.table-status-inactive {
+    background-color: #a6a6a642;
+}
+.table-status-active {
+    background-color: #e6f7ff42;
+}
+.table-status-info {
+    background-color: #2593fc42;
+}
+.table-status-success {
+    background-color: #57c22d42;
+}
+
+.table-cell__sorted .caret.on {
+    color: #1890ff;
+}
+.table-cell__sorted div {
+    position: relative;
+}
+.table-cell__sorted:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.table-filter-dropdown {
+    padding: 8px;
+    border-radius: 6px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    min-width: 320px;
+}
+
+.table-filter-dropdown input {
+    width: 130px;
+    margin-right: 8px;
+}
+
+.table-filter-dropdown button {
+    margin-right: 8px;
+}
+
+th.column-money,
+td.column-money {
+    text-align: right !important;
+}
+
+.ant-table-column-title {
+    font-family: 'Simply Cricket Cond Demi';
+    font-size: 14px;
+}
+
+.currentAddOnContainer {
+    margin-bottom: 10px;
+}
+
+.newAddOnContainer {
+    margin-bottom: 10px;
+}
+
+.change_rate_plan_table table {
+    border-spacing: 0px 8px;
+}
+
+.change_rate_plan_table table td {
+    border-top: 1px solid rgba(213, 220, 229, 0.5);
+    border-bottom: 1px solid rgba(213, 220, 229, 0.5);
+}
+
+.change_rate_plan_table table td:first-of-type {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-left: 1px solid rgba(213, 220, 229, 0.5);
+}
+
+.change_rate_plan_table table td:last-of-type {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-right: 1px solid rgba(213, 220, 229, 0.5);
+}
+
+.change_rate_plan_table .ant-table.ant-table-bordered {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.change_rate_plan_table .ant-table-pagination.ant-pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+    border-top: 1px solid #d5dce5;
+    padding-top: 12px;
+}
+
+.change_rate_plan_table .ant-table-thead > tr > th {
+    font-weight: 600;
+}
+
+.change_rate_plan_table .ant-checkbox-indeterminate .ant-checkbox-inner::after {
+    border-radius: 2px;
+    background: #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox-indeterminate .ant-checkbox-inner::after {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.change_rate_plan_table .ant-checkbox:hover,
+.change_rate_plan_table .ant-checkbox:focus {
+    border-color: #c4d600;
+    outline-color: #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox .ant-checkbox-input:hover {
+    border-color: #c4d600;
+    outline-color: #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox-wrapper:hover {
+    border-color: #c4d600;
+    outline-color: #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.change_rate_plan_table .ant-checkbox:hover .ant-checkbox-inner,
+.change_rate_plan_table .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox-checked::after {
+    border: 1px solid #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox-inner::after {
+    border: 2px solid #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox-checked .ant-checkbox-inner::after {
+    border: 2px solid #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox-checked > .ant-checkbox-inner {
+    background-color: #c4d600;
+    border-color: #c4d600;
+}
+
+.change_rate_plan_table .ant-checkbox-checked .ant-checkbox-inner::after {
+    position: absolute;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    -webkit-transform: rotate(45deg) scale(1) translate(-50%, -50%);
+    -ms-transform: rotate(45deg) scale(1) translate(-50%, -50%);
+    transform: rotate(45deg) scale(1) translate(-50%, -50%);
+    opacity: 1;
+    -webkit-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+    -o-transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+    transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
+    content: ' ';
+}
+
+.change_rate_plan_table .ant-table-row-selected {
+    -webkit-box-shadow: 0px 0px 32px rgba(1, 1, 1, 0.1);
+    box-shadow: 0px 0px 32px rgba(1, 1, 1, 0.1);
+    border: 1px solid #c4d600;
+    background: #fbfceb;
+}
+
+.change_rate_plan_table
+    .ant-table-row.ant-table-row-selected
+    td.ant-table-cell {
+    background: #fbfceb;
+}
+
+.change_rate_plan_table .ant-table.ant-table-bordered thead > tr > th,
+.change_rate_plan_table .ant-table.ant-table-bordered tbody > tr > td,
+.change_rate_plan_table .ant-table.ant-table-bordered tfoot > tr > th,
+.change_rate_plan_table .ant-table.ant-table-bordered tfoot > tr > td {
+    border-right: none;
+}
+
+.change_rate_plan_table .ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+    padding: 8px;
+}
+
+.change_rate_plan_table .ant-table.ant-table-bordered .ant-table-container {
+    border: none;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.change_rate_plan_table .ant-table-tbody > tr.ant-table-row > td:last-of-type {
+    border-right: 1px solid #f0f0f0;
+}
+
+.change_rate_plan_table .ant-spin-nested-loading {
+    height: 100%;
+}
+
+.change_rate_plan_table .ant-spin-container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+[data-row-key='-1'] label.ant-checkbox-wrapper {
+    display: none;
+}
+
+.addALineForm label.ant-checkbox-wrapper {
+    display: block;
+}
+.addALineForm.display-flex {
+    display: flex;
+}
+
+.addALine__button--cancel.ant-btn {
+    color: #d35d43;
+    background: #ffe5df;
+    border: none;
+}
+.addALine__button--cancel.ant-btn:hover {
+    color: #ffe5df;
+    background: #d35d43;
+    border: none;
+}
+
+.addALineForm {
+    padding: 8px 16px;
+}
+
+.change_rate_plan_table .addALineForm .ant-input:hover,
+.change_rate_plan_table .addALineForm .ant-input:focus {
+    border-color: #c4d600;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+    box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+}
+
+.change_rate_plan_table .add-a-line-buttons-disable {
+    cursor: not-allowed;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.add-a-line-radio .ant-radio-inner::after {
+    display: grid;
+}
+
+.change_rate_plan_table .ant-input-affix-wrapper:hover,
+.change_rate_plan_table .ant-input-affix-wrapper:focus,
+.change_rate_plan_table
+    .ant-input-affix-wrapper.ant-input-affix-wrapper-focused {
+    border-color: #c4d600;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+    box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+}
+
+.addALineForm .addALine__button--add-line.ant-btn {
+    color: #fff;
+    background: #60a630;
+    border: none;
+}
+
+.addALineForm .addALine__button-validate-port.ant-btn {
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.addALineForm .addALine__button--add-line.ant-btn:hover {
+    color: #60a630;
+    background: #f1ffe3;
+    border: none;
+}
+.addALineForm .addALine__input-number {
+    width: 100%;
+}
+
+.addALineForm .addALine__input-number .ant-input-number-handler-wrap {
+    display: none;
+}
+
+.ant-btn.addALine__button--add-line.ant-btn-primary.ant-btn-block[disabled] {
+    background-color: #f5f5f5;
+    color: rgba(0, 0, 0, 0.25);
+    border: 1px solid #d9d9d9;
+}
+
+.ant-btn.addALine__button--add-line.ant-btn-primary.ant-btn-block[disabled]:hover {
+    border-color: #c4d600;
+}
+
+.crp-table__changes-tags .checkable-tag__text {
+    white-space: pre-wrap;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.crp-table__checkbox-color-indicator {
+    width: 3px;
+    height: 58px;
+    display: block;
+    content: '';
+    margin: 0 auto;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+.crp-table__checkbox-cell span.ant-checkbox {
+    top: -0.5em;
+}
+
+.change_rate_plan_table .ant-table.ant-table-bordered {
+    overflow-y: auto;
+}
+
+.crpLineLevelNote {
+    margin-bottom: 8px;
+}
+
+.hideExpandedRow {
+    display: none;
+}
+
+
+
+.features-heading {
+    color: rgb(49, 149, 0);
+    font-weight: 600;
+}
+.features-main-container {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 900px;
+    max-width: 950px;
+    overflow-x: scroll;
+}
+.rate-plan-details-container {
+    text-align: 'left';
+    padding: 0px;
+    padding-right: 10px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.view-rate-plan-text {
+    font-size: 12px;
+}
+.rate-plan-header {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}

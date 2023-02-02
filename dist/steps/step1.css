@@ -1,0 +1,67 @@
+.step-1__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    overflow: auto;
+    height: 100%;
+}
+
+.step-1__wrapper--tab-table {
+    width: 85%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.step-1__wrapper--tab {
+    padding: 0 0 12px 0;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.step-1__wrapper--table {
+    width: 100%;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 2px;
+    padding: 0 8px;
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.step-1__wrapper--table .ant-pagination-item-active {
+    border-color: #c4d600;
+}
+
+.step-1__wrapper--table .ant-pagination-item-active a {
+    color: #c4d600;
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.step-1__summary {
+    width: 15%;
+    background: #fff;
+    margin-left: 8px;
+}
+
+.insurance_addon_message {
+    color: #f00;
+    font-size: 11px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}

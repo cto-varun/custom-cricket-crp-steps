@@ -1,0 +1,408 @@
+.checkable-tag__parent-wrapper {
+    margin-bottom: 8px;
+    max-height: 300px;
+    overflow-x: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--auto {
+    width: auto;
+    padding: 3px 8px;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--gray {
+    color: #404041;
+    background: #f5f7fa;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--gray:hover {
+    color: #404041;
+    background: #f5f7fa;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--gray
+    .checkable-tag__label-section--icon
+    svg,
+.checkable-tag__wrapper.ant-tag-checkable:hover.checkable-tag__wrapper--gray
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #404041;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--red {
+    color: #d35d43;
+    background: #ffe5df;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--red
+    .checkable-tag__label-section--icon
+    svg,
+.checkable-tag__wrapper.ant-tag-checkable:hover.checkable-tag__wrapper--red
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #d35d43;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--lime-green {
+    color: #fff;
+    background: #c4d600;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--lime-green
+    .checkable-tag__label-section--icon
+    svg,
+.checkable-tag__wrapper.ant-tag-checkable:hover.checkable-tag__wrapper--lime-green
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #fff;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--green {
+    background: #f1ffe3;
+    color: #60a630;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable.checkable-tag__wrapper--green
+    .checkable-tag__label-section--icon
+    svg,
+.checkable-tag__wrapper.ant-tag-checkable:hover.checkable-tag__wrapper--green
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #60a630;
+}
+
+.checkable-tag__quantity-box {
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 4px;
+    line-height: 11px;
+}
+
+.checkable-tag__link {
+    text-decoration-line: underline;
+}
+
+.checkable-tag__wrapper--lime-green .checkable-tag__quantity-box {
+    background: #fff;
+    color: #c4d600;
+}
+
+.checkable-tag__wrapper--gray .checkable-tag__quantity-box {
+    background: #d5dce5;
+    color: #404041;
+}
+
+.checkable-tag__wrapper--red .checkable-tag__quantity-box {
+    background: #d35d43;
+    color: #ffe5df;
+}
+
+.checkable-tag__wrapper--green .checkable-tag__quantity-box {
+    background: #60a630;
+    color: #f1ffe3;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable {
+    font-weight: 600;
+    margin: 12px;
+    background: #f1ffe3;
+    width: 168px;
+    color: #60a630;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.checkable-tag__close-button.ant-btn.ant-btn-icon-only {
+    background: #f1ffe3;
+    margin-left: 8px;
+    color: #60a630;
+    border: none;
+}
+
+.change_rate_plan_table .checkable-tag__wrapper.ant-tag-checkable {
+    margin: 8px 8px 8px 0;
+}
+
+span[disabled].checkable-tag__wrapper.ant-tag-checkable {
+    background: #f4f6f9;
+    color: #d5dce5;
+}
+
+span[disabled].checkable-tag__wrapper.ant-tag-checkable
+    .checkable-tag__label-section--icon
+    svg,
+span[disabled].checkable-tag__wrapper.ant-tag-checkable:hover
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #d5dce5;
+}
+
+span[disabled].checkable-tag__wrapper.ant-tag-checkable
+    .checkable-tag__label-price,
+span[disabled].checkable-tag__wrapper.ant-tag-checkable:hover
+    .checkable-tag__label-price {
+    border-left: 1px solid rgba(213, 220, 229, 0.3);
+}
+
+.checkable-tag__label-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.checkable-tag__label-wrapper.tag-review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkable-tag__wrapper--default .checkable-tag__label-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.checkable-tag__label-section {
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+
+.checkable-tag__label-section--icon {
+    margin-right: 8px;
+    margin-left: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.crp-table-tag .checkable-tag__label-section--icon {
+    margin-right: 0;
+}
+
+.checkable-tag__label-price {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-left: 1px solid rgba(96, 166, 48, 0.3);
+    font-weight: 500;
+    padding-left: 4px;
+}
+
+.checkable-tag__wrapper.ant-tag-checkable-checked .checkable-tag__label-price {
+    border-left: 1px solid rgba(241, 255, 227, 0.3);
+}
+
+.checkable-tag__wrapper.ant-tag-checkable-checked:hover
+    .checkable-tag__label-price {
+    border-left: 1px solid rgba(96, 166, 48, 0.3);
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.ant-tag-checkable:hover
+    .ant-btn.ant-btn-icon-only {
+    background: #85c05c;
+    color: #29540c;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.ant-tag-checkable:hover {
+    background: #85c05c;
+    color: #29540c;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.checkable-tag-review {
+    width: 98%;
+    text-align: start;
+}
+
+.checkable-tag__wrapper .review-terms {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.ant-tag-checkable-checked {
+    background: #85c05c;
+    color: #29540c;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.ant-tag-checkable-checked:hover {
+    background: #f1ffe3;
+    color: #60a630;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.ant-tag-checkable
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #60a630;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.ant-tag-checkable:hover
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #29540c;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.ant-tag-checkable-checked
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #29540c;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--default.ant-tag-checkable-checked:hover
+    .checkable-tag__label-section--icon
+    svg {
+    fill: #60a630;
+}
+
+.checkable-tag__tooltip .ant-tooltip-content {
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.checkable-tag__tooltip .ant-tooltip-inner {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid #d5dce5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #0d1b2f;
+    padding: 16px;
+}
+
+.checkable-tag__tooltip .ant-tooltip-arrow-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid #d5dce5;
+}
+
+.checkable-tag__tooltip.ant-tooltip-placement-top .ant-tooltip-arrow,
+.checkable-tag__tooltip.ant-tooltip-placement-topLeft .ant-tooltip-arrow,
+.checkable-tag__tooltip.ant-tooltip-placement-topRight .ant-tooltip-arrow {
+    bottom: -4.471068px;
+}
+
+.tooltip-overlay__content-short {
+    font-weight: 600;
+    color: #0d1b2f;
+}
+.tooltip-overlay__content-long {
+    font-weight: 500;
+    color: #0d1b2f;
+    white-space: pre-line;
+}
+.tooltip-overlay__content-price {
+    font-weight: 600;
+    color: #404041;
+}
+
+.checkable-tag__tooltip.ant-tooltip-placement-bottom .ant-tooltip-arrow,
+.checkable-tag__tooltip.ant-tooltip-placement-bottomLeft .ant-tooltip-arrow,
+.checkable-tag__tooltip.ant-tooltip-placement-bottomRight .ant-tooltip-arrow {
+    top: -4.471068px;
+}
+
+.checkable-tag__otc-tooltip .ant-tooltip-inner {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid #d5dce5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #0d1b2f;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkable-tag__otc-tooltip .ant-tooltip-arrow-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid #d5dce5;
+}
+
+.checkable-tag__otc-tooltip .ant-tooltip-placement-top .ant-tooltip-arrow,
+.ant-tooltip-placement-topLeft .ant-tooltip-arrow,
+.ant-tooltip-placement-topRight .ant-tooltip-arrow {
+    bottom: -4.071068px;
+}
+
+.otc-tooltip__wrapper {
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #010101;
+    width: 110px;
+}
+
+.otc-tooltip__update-actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.otc-tooltip__header {
+    text-align: center;
+    border-bottom: 1px solid #d5dce5;
+    padding: 8px 10px;
+}
+
+.otc-tooltip__quantity-box {
+    border: 1px solid #d5dce5;
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.otc-tooltip__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.otc-tooltip__icon:hover {
+    cursor: pointer;
+}
+
+.checkable-tag__wrapper.checkable-tag__wrapper--gray.ant-tag-checkable:not(.ant-tag-checkable-checked):hover {
+    color: #404041;
+}
+
+.checkable-tag__ebb {
+    color: white;
+    background-color: #1a75bb;
+    margin-right: 4px;
+}

@@ -1,0 +1,111 @@
+.collapse-panel__parent-wrapper .ant-collapse-item {
+  background: #fff;
+}
+
+.collapse-panel__header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collapse-panel__panel-wrapper--checked {
+  -webkit-box-shadow: 0px 0px 32px rgba(1, 1, 1, 0.1);
+          box-shadow: 0px 0px 32px rgba(1, 1, 1, 0.1);
+}
+
+.collapse-panel__panel-wrapper--checked.ant-collapse-item {
+  border: 1px solid #C4D600;
+  background: #FBFCEB;
+}
+
+.collapse-panel__panel-wrapper--checked .ant-collapse-content {
+  background: #FBFCEB;
+}
+
+.collapse-panel__header-price {
+  color: #60A630;
+  font-weight: 600;
+}
+
+.collapse-panel__header-wrapper .collapse-panel__header-checkbox span {
+  color: #404041;
+  font-weight: 600;
+}
+
+.collapse-panel__header-wrapper.collapse-panel__header-wrapper--expired .collapse-panel__header-checkbox span {
+  color: #D5DCE5;
+  font-weight: 600;
+}
+
+.collapse-panel__header-wrapper.collapse-panel__header-wrapper--expired .collapse-panel__header-price {
+  color: #D5DCE5;
+  font-weight: 600;
+}
+
+
+.collapse-panel__parent-wrapper .ant-collapse {
+  border: none;
+  background: #fff;
+  padding: 16px 12px;
+}
+
+.collapse-panel__parent-wrapper {
+  max-height: 300px;
+  overflow-x: hidden;
+}
+
+
+.collapse-panel__parent-wrapper .ant-collapse-item {
+  margin-bottom: 8px;
+  border: 1px solid rgba(213, 220, 229, 0.5);
+}
+
+.collapse-panel__parent-wrapper .ant-collapse-content {
+  border: none;
+}
+
+.collapse-panel__parent-wrapper .ant-collapse-arrow > svg {
+  fill: #60A630;
+}
+
+.collapse-panel__header-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+  background: #C4D600;
+  border-color: #C4D600;
+}
+
+.collapse-panel__header-checkbox .ant-checkbox-checked::after {
+  border-color: #C4D600;
+}
+
+.collapse-panel__header-checkbox .ant-checkbox::after {
+  border-color: #C4D600;
+}
+
+.collapse-panel__header-checkbox .ant-checkbox:hover {
+  border-color: #C4D600;
+}
+
+.collapse-panel__header-checkbox .ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #C4D600;
+}
+
+.collapse-panel__header-checkbox .ant-checkbox.ant-checkbox-checked:hover {
+  border-color: #C4D600;
+}
+
+.collapse-panel__header-checkbox.ant-checkbox-wrapper:hover .ant-checkbox .ant-checkbox-inner {
+  border-color: #C4D600;
+}
+
+.collapse-panel__header-checkbox input.ant-checkbox-input:focus {
+  border-color: #C4D600;
+}
+
+.collapse-panel__header-checkbox .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+    .collapse-panel__header-checkbox .ant-checkbox:hover .ant-checkbox-inner,
+    .collapse-panel__header-checkbox .ant-checkbox-input:focus + .ant-checkbox-inner {
+      border-color: #C4D600;
+    }

@@ -1,0 +1,189 @@
+.crp__content-steps-steps .ant-steps-item-process .ant-steps-item-icon {
+    background: #c4d600;
+    border: 1px solid #c4d600;
+    font-family: 'Simply Cricket Cond Book';
+}
+
+.crp__content-steps-steps .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #c4d600;
+    border-color: #c4d600;
+    color: #fff;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item.ant-steps-item-finish
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title {
+    color: #c4d600;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item-finish
+    .ant-steps-item-icon
+    > .ant-steps-icon {
+    color: #fff;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item-finish
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title::after {
+    background-color: #c4d600;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item-process
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title::after {
+    background-color: #c4d600;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item-process.ant-steps-item-active
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title::after {
+    background-color: #404041;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item-wait
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title::after {
+    background-color: #404041;
+}
+
+.crp__content-steps-steps .ant-steps-item-wait .ant-steps-item-icon {
+    background-color: #fff;
+    border-color: #404041;
+    color: #404041;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item-wait
+    .ant-steps-item-icon
+    > .ant-steps-icon {
+    color: #404041;
+    font-family: 'Simply Cricket Cond Book';
+}
+
+.crp__content-steps {
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto 8px auto;
+    padding: 12px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background: #fff;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    border-radius: 2px;
+}
+
+.crp__content-steps-header {
+    width: 25%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #010101;
+}
+
+.crp__content-steps-steps {
+    width: 60%;
+}
+
+.crp__content-steps-close {
+    width: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
+}
+
+.crp__content-steps-close-icon {
+    width: 24px;
+    height: 24px;
+    background: #ffe5df;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.crp__content-steps-close-icon:hover {
+    background: #d35d43;
+}
+
+.crp__content-steps-close-icon:hover > svg > path {
+    fill: #ffe5df;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item-active
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title {
+    font-weight: 800;
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title {
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #404041;
+}
+
+.crp__content-steps-steps
+    .ant-steps-item-active
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title {
+    color: #c4d600;
+    font-weight: 500;
+}
+
+.crp--wrapper .ant-switch-checked:focus {
+    -webkit-box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+    box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+}
+
+.crp--wrapper .ant-switch {
+    --antd-wave-shadow-color: #c4d600;
+}
+
+.crp--wrapper .ant-switch-checked {
+    background: #c4d600;
+}
+
+.step-4__modal--success {
+    font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.crp-payment-success-modal {
+    margin-top: 24px;
+}

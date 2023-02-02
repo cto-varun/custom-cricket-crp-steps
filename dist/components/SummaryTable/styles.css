@@ -1,0 +1,80 @@
+.summary__wrapper {
+  font-family: "Simply Cricket Cond Medium", Arial, Helvetica, sans-serif;
+  border-radius: 2px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+}
+
+.summary__title {
+  display: block;
+  font-size: 20px;
+  font-family: "Simply Cricket Cond Bold", Arial, Helvetica, sans-serif;
+  color: #010101;
+}
+
+.summary__subtitle {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #404041;
+}
+
+.summary__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 8px 0;
+}
+
+.summary__text {
+  width: 100%;
+}
+
+.summary__text--left {
+  text-align: left;
+}
+
+.summary__text--center {
+  text-align: center;
+}
+
+.summary__text--right {
+  text-align: right;
+}
+
+.summary__value {
+  font-weight: 600;
+  color: #404041;
+  width: 100%;
+}
+
+.summary__due-form {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.summary__radio-buttons-wrapper {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}

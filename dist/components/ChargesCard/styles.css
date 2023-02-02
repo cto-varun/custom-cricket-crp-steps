@@ -1,0 +1,178 @@
+.charges-card__wrapper {
+  border-radius: 2px;
+  padding: 8px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 8px;
+  background: #fbfbfc;
+  font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif
+}
+
+.charges-card__charges-display {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.charges-card__wallet {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 14px;
+}
+
+.charges-card__item-display {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.charges-card__item-value {
+  margin-left: 8px;
+}
+
+.charges-card__item-value--red {
+  color: #D35D43;
+}
+
+.charges-card__item-value--green {
+  color: #60A630;
+}
+
+
+.charges-card__wallet-text {
+  margin-left: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 16px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.charges-card__wallet-tooltip .ant-tooltip-inner {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #d5dce5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  color: #0d1b2f;
+  padding: 0;
+}
+
+.charges-card__wallet-tooltip .ant-tooltip-arrow-content {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #d5dce5;
+}
+
+.charges-card__wallet-tooltip .ant-tooltip-placement-left .ant-tooltip-arrow, .ant-tooltip-placement-leftTop .ant-tooltip-arrow, .ant-tooltip-placement-leftBottom .ant-tooltip-arrow {
+  right: -3.771068px;
+}
+
+.wallet-tooltip__title {
+  padding: 8px 16px;
+  border-bottom: 1px solid #D5DCE5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wallet-tooltip__title-text {
+  font-size: 14px; 
+  font-weight: 600;
+  color: #010101;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  text-align: center;
+}
+
+.wallet-tooltip__close-icon svg path {
+  fill: #404041;
+}
+
+.wallet-tooltip__close-icon {
+  cursor: pointer;
+}
+
+.wallet-tooltip__toggles-wrapper {
+  padding: 8px 16px;
+}
+
+.wallet-tooltip__toggles-wrapper .toggles__switch-offer-amount {
+  margin-left: 8px;
+}
+
+.wallet-tooltip__wrapper {
+  font-family: 'Simply Cricket Cond Medium', Arial, Helvetica, sans-serif;
+}
+
+.charges-card__wallet-icon-wrapper {
+  cursor: pointer;
+}
+
+.charges-card__wallet-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.charges-card__wallet-tooltip .ant-switch-checked:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+  box-shadow: 0 0 0 2px rgba(200, 212, 68, 0.2);
+}
+
+.charges-card__wallet-tooltip .ant-switch {
+  --antd-wave-shadow-color: #C4D600;
+}
+
+.charges-card__wallet-tooltip .ant-switch-checked {
+  background: #C4D600;
+}
+
+.wallet-tooltip__toggles-wrapper > span {
+  padding: 0 8px;
+  color: #d5dce5;
+}

@@ -1,0 +1,36 @@
+.toggles__switches {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.toggles__switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.toggles__switch-offer-text {
+  margin-left: 8px;
+  color: #404041;
+}
+
+.toggle__switch-offer-amount {
+  color: #60A630;
+}
+
+.wallet-tooltip__toggles-wrapper .toggle__switch-offer-amount {
+  margin-left: 8px;
+}

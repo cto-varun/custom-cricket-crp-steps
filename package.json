@@ -1,0 +1,41 @@
+{
+    "name": "@ivoyant/custom-cricket-crp-steps",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "Custom Cricket CRP Steps",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+        "react": "^18.2.0"
+    },
+    "dependencies": {
+        "@ivoyant/component-cache": "^1.0.0",
+        "@ivoyant/component-loader": "1.0.39",
+        "@ivoyant/component-message-bus": "^1.0.0",
+        "@ivoyant/custom-cricket-pop-up": "^1.0.0",
+        "dayjs": "^1.7.7",
+        "lodash.clonedeep": "4.5.0",
+        "lodash.get": "^4.4.2",
+        "lodash.groupby": "^4.6.0",
+        "lodash.isequal": "4.5.0",
+        "prop-types": "15.8.1",
+        "react-number-format": "^3.6.2",
+        "uuid": "9.0.0"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2",
+        "prop-types": "15.7.2"
+    }
+}
